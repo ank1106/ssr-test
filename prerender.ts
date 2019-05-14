@@ -33,7 +33,6 @@ enableProdMode();
 import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
 import { renderModuleFactory } from '@angular/platform-server';
 import { ROUTES } from './static.paths';
-
 const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require(`./dist/server/main.js`);
 import { REQUEST, RESPONSE } from '@nguniversal/express-engine/tokens';
 
